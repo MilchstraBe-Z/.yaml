@@ -19,40 +19,42 @@ dns:
     - 'https://1.1.1.1/dns-query'
     - 'https://1.0.0.1/dns-query'
 proxies:
- - { name: 'CU丨香港 04 - 解锁流媒体', type: trojan, server: hk04.wangyiyunniubi.com, port: 13010, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true, sni: hk04.wyyniubi.com }
- - { name: 'CT丨香港 03 - 解锁流媒体', type: trojan, server: hk03.wangyiyunniubi.com, port: 13008, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true, sni: hk03.wyyniubi.com }
- - { name: 'CM丨香港 02 - 解锁流媒体', type: trojan, server: hk02.wangyiyunniubi.com, port: 12002, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true, sni: hk02.wyyniubi.com }
- - { name: 'CT丨日本 01', type: trojan, server: jp01.wangyiyunniubi.com, port: 13000, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true, sni: jp01.wyyniubi.com }
- - { name: 'CU丨日本 02', type: trojan, server: jp02.wangyiyunniubi.com, port: 13019, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true, sni: jp02.wyyniubi.com }
- - { name: CU丨俄罗斯01, type: trojan, server: rus01.wangyiyunniubi.com, port: 13023, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true, sni: rus01.wyyniubi.com }
- - { name: 'CM丨乌克兰 01', type: trojan, server: ua01.wangyiyunniubi.com, port: 13037, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true, sni: ua01.wyyniubi.com }
- - { name: 'CT丨韩国 01', type: trojan, server: kr01.wangyiyunniubi.com, port: 13003, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true, sni: kr01.wyyniubi.com }
- - { name: 'CU丨韩国 02', type: trojan, server: kr02.wangyiyunniubi.com, port: 32136, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true, sni: kr02.wyyniubi.com }
- - { name: 'CM丨阿根廷 01 - 原生', type: trojan, server: ar01.wangyiyunniubi.com, port: 13005, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true, sni: ar01.wyyniubi.com }
- - { name: 'CM丨美国 01 - 解锁流媒体', type: trojan, server: us01.wangyiyunniubi.com, port: 13011, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true, sni: us01.wyyniubi.com, skip-cert-verify: true }
- - { name: 'CU丨美国 02 - 解锁流媒体', type: trojan, server: us02.wangyiyunniubi.com, port: 13012, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true, sni: us02.wyyniubi.com }
- - { name: 'CT丨美国 04 - 解锁流媒体', type: trojan, server: us04.wangyiyunniubi.com, port: 13020, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true, sni: us04.wyyniubi.com, skip-cert-verify: true }
- - { name: 'CT丨香港 01 - 解锁流媒体丨SS', type: ss, server: sshk01.wangyiyunniubi.com, port: 13017, cipher: aes-128-gcm, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true }
- - { name: 'CM丨香港 03 - 解锁流媒体丨SS', type: ss, server: sshk03.wangyiyunniubi.com, port: 13013, cipher: aes-128-gcm, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true }
- - { name: 'CT丨香港 04 - 流媒体解锁丨SS', type: ss, server: sshk04.wangyiyunniubi.com, port: 12009, cipher: aes-128-gcm, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true }
- - { name: 'CM丨香港 05 - 流媒体解锁丨SS', type: ss, server: sshk05.wangyiyunniubi.com, port: 13033, cipher: aes-128-gcm, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true }
- - { name: 'CU丨日本 01 - SS', type: ss, server: ssjp01.wangyiyunniubi.com, port: 13022, cipher: aes-128-gcm, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true }
- - { name: 'CT丨日本 02 - 流媒体解锁丨SS', type: ss, server: ssjp03.wangyiyunniubi.com, port: 13029, cipher: aes-128-gcm, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true }
- - { name: 'CM丨新加坡02 - 解锁流媒体丨SS', type: ss, server: sssg02.wangyiyunniubi.com, port: 13012, cipher: aes-128-gcm, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true }
- - { name: 'CU丨新加坡03 - 解锁流媒体丨SS', type: ss, server: sssg03.wangyiyunniubi.com, port: 12011, cipher: aes-128-gcm, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true }
- - { name: 'CT丨加拿大 01 - 解锁流媒体丨SS', type: ss, server: ssca01.wangyiyunniubi.com, port: 13011, cipher: aes-128-gcm, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true }
- - { name: 'CU丨台湾 02 - 流媒体解锁丨SS', type: ss, server: sstw02.wangyiyunniubi.com, port: 12008, cipher: aes-128-gcm, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true }
- - { name: 'CT丨台湾 04 - SS', type: ss, server: sstw04.wangyiyunniubi.com, port: 13025, cipher: aes-128-gcm, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true }
- - { name: 'CM丨泰国 01 - 解锁流嫖体丨SS', type: ss, server: ssth01.wangyiyunniubi.com, port: 13009, cipher: aes-128-gcm, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true }
- - { name: 'CM丨印尼 01- 解锁流媒体丨SS', type: ss, server: ssind01.wangyiyunniubi.com, port: 13015, cipher: aes-128-gcm, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true }
- - { name: 'CT丨菲律宾 01', type: ss, server: ssphi01.wangyiyunniubi.com, port: 13035, cipher: aes-128-gcm, password: 463bd759-33f5-4268-bd59-97ea3acbdf0d, udp: true }
-
+  - { name: 公示节点勿连：建议定期更新订阅享用最新节点, type: vmess, server: www.google.com, port: 80, uuid: 015c28b8-13ba-4b69-a068-0d81139fe794, alterId: 1, cipher: auto, udp: true, network: ws } 
+  - { name: IPLC-香港丨20x, type: ss, server: iplchk01.iplcserver.com, port: 14333, cipher: aes-128-gcm, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true } 
+  - { name: 'CU丨香港 04 - 解锁流媒体', type: trojan, server: hk04.wangyiyunniubi.com, port: 13010, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true, sni: hk04.wyyniubi.com } 
+  - { name: 'CT丨香港 03 - 解锁流媒体', type: trojan, server: hk03.wangyiyunniubi.com, port: 13008, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true, sni: hk03.wyyniubi.com } 
+  - { name: 'CM丨香港 02 - 解锁流媒体', type: trojan, server: hk02.wangyiyunniubi.com, port: 12002, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true, sni: hk02.wyyniubi.com } 
+  - { name: 'CT丨日本 01', type: trojan, server: jp01.wangyiyunniubi.com, port: 13000, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true, sni: jp01.wyyniubi.com } 
+  - { name: 'CU丨日本 02', type: trojan, server: jp02.wangyiyunniubi.com, port: 13019, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true, sni: jp02.wyyniubi.com } 
+  - { name: CU丨俄罗斯01, type: trojan, server: rus01.wangyiyunniubi.com, port: 13023, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true, sni: rus01.wyyniubi.com } 
+  - { name: 'CM丨乌克兰 01', type: trojan, server: ua01.wangyiyunniubi.com, port: 13037, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true, sni: ua01.wyyniubi.com }
+  - { name: 'CT丨韩国 01', type: trojan, server: kr01.wangyiyunniubi.com, port: 13003, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true, sni: kr01.wyyniubi.com } 
+  - { name: 'CU丨韩国 02', type: trojan, server: kr02.wangyiyunniubi.com, port: 32136, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true, sni: kr02.wyyniubi.com } 
+  - { name: 'CM丨阿根廷 01 - 原生', type: trojan, server: ar01.wangyiyunniubi.com, port: 13005, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true, sni: ar01.wyyniubi.com } 
+  - { name: 'CM丨美国 01 - 解锁流媒体', type: trojan, server: us01.wangyiyunniubi.com, port: 13011, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true, sni: us01.wyyniubi.com, skip-cert-verify: true } 
+  - { name: 'CU丨美国 02 - 解锁流媒体', type: trojan, server: us02.wangyiyunniubi.com, port: 13012, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true, sni: us02.wyyniubi.com } 
+  - { name: 'CT丨美国 04 - 解锁流媒体', type: trojan, server: us04.wangyiyunniubi.com, port: 13020, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true, sni: us04.wyyniubi.com, skip-cert-verify: true } 
+  - { name: 'CU丨香港 01 - 解锁流媒体丨SS', type: ss, server: sshk01.wangyiyunniubi.com, port: 13017, cipher: aes-128-gcm, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true } 
+  - { name: 'CM丨香港 03 - 解锁流媒体丨SS', type: ss, server: sshk03.wangyiyunniubi.com, port: 13013, cipher: aes-128-gcm, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true } 
+  - { name: 'CT丨香港 04 - 流媒体解锁丨SS', type: ss, server: sshk04.wangyiyunniubi.com, port: 12009, cipher: aes-128-gcm, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true } 
+  - { name: 'CM丨香港 05 - 流媒体解锁丨SS', type: ss, server: sshk05.wangyiyunniubi.com, port: 13033, cipher: aes-128-gcm, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true } 
+  - { name: 'CU丨日本 01 - SS', type: ss, server: ssjp01.wangyiyunniubi.com, port: 13022, cipher: aes-128-gcm, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true } 
+  - { name: 'CT丨日本 02 - 流媒体解锁丨SS', type: ss, server: ssjp03.wangyiyunniubi.com, port: 13029, cipher: aes-128-gcm, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true } 
+  - { name: 'CM丨新加坡02 - 解锁流媒体丨SS', type: ss, server: sssg02.wangyiyunniubi.com, port: 13012, cipher: aes-128-gcm, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true } 
+  - { name: 'CU丨新加坡03 - 解锁流媒体丨SS', type: ss, server: sssg03.wangyiyunniubi.com, port: 12011, cipher: aes-128-gcm, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true } 
+  - { name: 'CT丨加拿大 01 - 解锁流媒体丨SS', type: ss, server: ssca01.wangyiyunniubi.com, port: 13011, cipher: aes-128-gcm, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true } 
+  - { name: 'CU丨台湾 02 - 流媒体解锁丨SS', type: ss, server: sstw02.wangyiyunniubi.com, port: 12008, cipher: aes-128-gcm, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true } 
+  - { name: 'CT丨台湾 04 - SS', type: ss, server: sstw04.wangyiyunniubi.com, port: 13025, cipher: aes-128-gcm, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true } 
+  - { name: 'CM丨泰国 01 - 解锁流嫖体丨SS', type: ss, server: ssth01.wangyiyunniubi.com, port: 13009, cipher: aes-128-gcm, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true } 
+  - { name: 'CM丨印尼 01- 解锁流媒体丨SS', type: ss, server: ssind01.wangyiyunniubi.com, port: 13015, cipher: aes-128-gcm, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true } 
+  - { name: 'CT丨菲律宾 01', type: ss, server: ssphi01.wangyiyunniubi.com, port: 13035, cipher: aes-128-gcm, password: 015c28b8-13ba-4b69-a068-0d81139fe794, udp: true }
 proxy-groups:
 - name: Default
   type: select
   proxies:
     - Automatic
     - DIRECT
+    - 'IPLC-香港丨20x'
     - 'CU丨香港 04 - 解锁流媒体'
     - 'CT丨香港 03 - 解锁流媒体'
     - 'CM丨香港 02 - 解锁流媒体'
@@ -66,7 +68,7 @@ proxy-groups:
     - 'CM丨美国 01 - 解锁流媒体'
     - 'CU丨美国 02 - 解锁流媒体'
     - 'CT丨美国 04 - 解锁流媒体'
-    - 'CT丨香港 01 - 解锁流媒体丨SS'
+    - 'CU丨香港 01 - 解锁流媒体丨SS'
     - 'CM丨香港 03 - 解锁流媒体丨SS'
     - 'CT丨香港 04 - 流媒体解锁丨SS'
     - 'CM丨香港 05 - 流媒体解锁丨SS'
@@ -86,6 +88,7 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 1800
   proxies:
+    - 'IPLC-香港丨20x'
     - 'CU丨香港 04 - 解锁流媒体'
     - 'CT丨香港 03 - 解锁流媒体'
     - 'CM丨香港 02 - 解锁流媒体'
@@ -99,7 +102,7 @@ proxy-groups:
     - 'CM丨美国 01 - 解锁流媒体'
     - 'CU丨美国 02 - 解锁流媒体'
     - 'CT丨美国 04 - 解锁流媒体'
-    - 'CT丨香港 01 - 解锁流媒体丨SS'
+    - 'CU丨香港 01 - 解锁流媒体丨SS'
     - 'CM丨香港 03 - 解锁流媒体丨SS'
     - 'CT丨香港 04 - 流媒体解锁丨SS'
     - 'CM丨香港 05 - 流媒体解锁丨SS'
@@ -120,6 +123,7 @@ proxy-groups:
     - Default
     - Automatic
     - DIRECT
+    - 'IPLC-香港丨20x'
     - 'CU丨香港 04 - 解锁流媒体'
     - 'CT丨香港 03 - 解锁流媒体'
     - 'CM丨香港 02 - 解锁流媒体'
@@ -133,7 +137,7 @@ proxy-groups:
     - 'CM丨美国 01 - 解锁流媒体'
     - 'CU丨美国 02 - 解锁流媒体'
     - 'CT丨美国 04 - 解锁流媒体'
-    - 'CT丨香港 01 - 解锁流媒体丨SS'
+    - 'CU丨香港 01 - 解锁流媒体丨SS'
     - 'CM丨香港 03 - 解锁流媒体丨SS'
     - 'CT丨香港 04 - 流媒体解锁丨SS'
     - 'CM丨香港 05 - 流媒体解锁丨SS'
